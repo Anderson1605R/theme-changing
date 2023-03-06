@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.light {
+  background-color: azure;
+  color: black;
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.918);
+  color: white;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+p {
+  padding: 10px;
+}
